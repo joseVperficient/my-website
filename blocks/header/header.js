@@ -96,10 +96,24 @@ export default async function decorate(block) {
   const navPath = navMeta ? new URL(navMeta).pathname : '/nav';
   const fragment = await loadFragment(navPath);
 
+  let subNav = document.getElementsByClassName("secondary-nav")
+  let discoverGames = subNav[0].children[0].innerHTML
+//   console.log("games links ", subNav[0].children[0].innerHTML)
+  let discoverGamesContainer = document.createElement("div");
+  discoverGamesContainer.className = "discover-games-container"
+  discoverGamesContainer.innerHTML = discoverGames
+//   subNav.append(discoverGamesContainer)
+
+  
+  console.log("discover games var--- ", discoverGames)
+
   // decorate nav DOM
   const nav = document.createElement('nav');
   nav.id = 'nav';
   while (fragment.firstElementChild) nav.append(fragment.firstElementChild);
+
+  const subHeader = document.createElement("div")
+  subHeader.className = "sub-header";
 
   const classes = ['brand', 'sections', 'tools'];
   classes.forEach((c, i) => {
@@ -115,6 +129,7 @@ export default async function decorate(block) {
   }
 
   const navSections = nav.querySelector('.nav-sections');
+  console.log("nav sections here", navSections)
   if (navSections) {
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
       if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
@@ -124,8 +139,35 @@ export default async function decorate(block) {
           toggleAllNavSections(navSections);
           navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
         }
+      })
+      navSection.addEventListener('mouseenter', () => {
+        setTimeout(() => {
+            subHeader.style.display = "block"
+        }, 400);
       });
+
+      navSection.addEventListener('mouseleave', () => {
+        subHeader.style.display = "none"
+      });
+
+      navSection.addEventListener('mousemove', function(event) {
+        if(isMouseInsideSubHeader(event)) {
+            subHeader.style.display = "block"
+        } else {
+            subHeader.style.display = "none"
+        }
+      })
     });
+  }
+
+  function isMouseInsideSubHeader(event) {
+    var rect = subHeader.getBoundingClientRect();
+    return (
+      event.clientX >= rect.left &&
+      event.clientX <= rect.right &&
+      event.clientY >= rect.top &&
+      event.clientY <= rect.bottom
+    );
   }
 
   // hamburger for mobile
@@ -144,5 +186,6 @@ export default async function decorate(block) {
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
+//   navWrapper.append(subHeader);
   block.append(navWrapper);
 }

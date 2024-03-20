@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80px" height="80px" viewBox="0 0 80 80" version="1.1">
+    <title>Blog</title>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-1">
+            <stop stop-color="#3B3B40" offset="0%"/>
+            <stop stop-color="#252528" offset="100%"/>
+        </radialGradient>
+        <linearGradient x1="8.67768595%" y1="-4.64905892e-14%" x2="91.322314%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#37CE4F" offset="0%"/>
+            <stop stop-color="#19A031" offset="100%"/>
+        </linearGradient>
+        <path d="M4,0 L36,0 C38.209139,-4.05812251e-16 40,1.790861 40,4 L40,40 C40,42.209139 38.209139,44 36,44 L4,44 C1.790861,44 -1.73547709e-16,42.209139 0,40 L0,4 C-2.705415e-16,1.790861 1.790861,2.18216909e-15 4,0 Z" id="path-3"/>
+        <filter x="-17.5%" y="-11.4%" width="135.0%" height="131.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.146334135 0" type="matrix" in="shadowBlurOuter1"/>
+        </filter>
+        <linearGradient x1="9.5%" y1="-4.64905892e-14%" x2="90.5%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#37CE4F" offset="0%"/>
+            <stop stop-color="#19A031" offset="100%"/>
+        </linearGradient>
+        <path d="M4,2 L36,2 C37.1045695,2 38,2.8954305 38,4 L38,40 C38,41.1045695 37.1045695,42 36,42 L4,42 C2.8954305,42 2,41.1045695 2,40 L2,4 C2,2.8954305 2.8954305,2 4,2 Z" id="path-6"/>
+        <filter x="-19.4%" y="-12.5%" width="138.9%" height="135.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.146334135 0" type="matrix" in="shadowBlurOuter1"/>
+        </filter>
+    </defs>
+    <g id="📦-Component" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="📦-Component/Desktop/Header/Sign-In/Open/Community-1024" transform="translate(-342.000000, -120.000000)">
+            <g id="Group-2" transform="translate(0.000000, 55.000000)">
+                <g id="Blog" transform="translate(342.000000, 65.000000)">
+                    <rect id="Rectangle-Copy-2" fill="url(#radialGradient-1)" x="0" y="0" width="80" height="80" rx="6"/>
+                    <g id="Group" transform="translate(21.000000, 18.000000)">
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"/>
+                            <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"/>
+                        </g>
+                        <g id="Rectangle-Copy">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"/>
+                            <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"/>
+                        </g>
+                        <g id="Group-2" transform="translate(7.000000, 7.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <path d="M16,5 L25,5 C25.5522847,5 26,5.44771525 26,6 C26,6.55228475 25.5522847,7 25,7 L16,7 C15.4477153,7 15,6.55228475 15,6 C15,5.44771525 15.4477153,5 16,5 Z" id="Rectangle-Copy-9"/>
+                            <path d="M16,10 L25,10 C25.5522847,10 26,10.4477153 26,11 C26,11.5522847 25.5522847,12 25,12 L16,12 C15.4477153,12 15,11.5522847 15,11 C15,10.4477153 15.4477153,10 16,10 Z" id="Rectangle-Copy-16"/>
+                            <path d="M16,0 L25,0 C25.5522847,-1.01453063e-16 26,0.44771525 26,1 C26,1.55228475 25.5522847,2 25,2 L16,2 C15.4477153,2 15,1.55228475 15,1 C15,0.44771525 15.4477153,1.01453063e-16 16,0 Z" id="Rectangle-Copy-15"/>
+                            <path d="M1,15 L25,15 C25.5522847,15 26,15.4477153 26,16 C26,16.5522847 25.5522847,17 25,17 L1,17 C0.44771525,17 -5.9849844e-16,16.5522847 0,16 C-6.76353751e-17,15.4477153 0.44771525,15 1,15 Z" id="Rectangle-Copy-12"/>
+                            <path d="M1,20 L25,20 C25.5522847,20 26,20.4477153 26,21 C26,21.5522847 25.5522847,22 25,22 L1,22 C0.44771525,22 -5.9849844e-16,21.5522847 0,21 C-6.76353751e-17,20.4477153 0.44771525,20 1,20 Z" id="Rectangle-Copy-13"/>
+                            <path d="M1,0 L11,0 C11.5522847,-1.01453063e-16 12,0.44771525 12,1 L12,11 C12,11.5522847 11.5522847,12 11,12 L1,12 C0.44771525,12 -3.76453835e-16,11.5522847 0,11 L0,1 C-6.76353751e-17,0.44771525 0.44771525,-3.42636147e-16 1,0 Z" id="Rectangle-Copy-11"/>
+                            <path d="M1,25 L17,25 C17.5522847,25 18,25.4477153 18,26 C18,26.5522847 17.5522847,27 17,27 L1,27 C0.44771525,27 5.11724585e-16,26.5522847 0,26 C-6.76353751e-17,25.4477153 0.44771525,25 1,25 Z" id="Rectangle-Copy-10"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

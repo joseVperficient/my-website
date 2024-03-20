@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80px" height="80px" viewBox="0 0 80 80" version="1.1">
+    <title>Support</title>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-1">
+            <stop stop-color="#3B3B40" offset="0%"/>
+            <stop stop-color="#252528" offset="100%"/>
+        </radialGradient>
+        <linearGradient x1="-1.28022593e-13%" y1="-4.64905892e-14%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FDA71B" offset="0%"/>
+            <stop stop-color="#F17C1B" offset="100%"/>
+        </linearGradient>
+        <circle id="path-3" cx="20" cy="20" r="20"/>
+        <filter x="-17.5%" y="-12.5%" width="135.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.153818837 0" type="matrix" in="shadowBlurOuter1"/>
+        </filter>
+        <circle id="path-5" cx="20" cy="20" r="18"/>
+        <filter x="-19.4%" y="-13.9%" width="138.9%" height="138.9%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.153818837 0" type="matrix" in="shadowBlurOuter1"/>
+        </filter>
+    </defs>
+    <g id="📦-Component" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="📦-Component/Desktop/Header/Sign-In/Open/Community-1024" transform="translate(-732.000000, -120.000000)">
+            <g id="Group-2" transform="translate(0.000000, 55.000000)">
+                <g id="Support" transform="translate(732.000000, 65.000000)">
+                    <rect id="Rectangle-Copy-3" fill="url(#radialGradient-1)" x="0" y="0" width="80" height="80" rx="6"/>
+                    <g id="♠️-Glyph/Mainmenu/Support-Copy" transform="translate(20.000000, 20.000000)">
+                        <g id="Oval-Copy-7">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"/>
+                            <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"/>
+                        </g>
+                        <g id="Oval-Copy-8">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"/>
+                            <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-5"/>
+                        </g>
+                        <path d="M19.4337921,23.1983643 C20.2983246,23.1983643 20.7732086,22.7234802 20.9558563,21.9076538 C21.114151,20.8848267 21.4794464,20.3612366 23.0989227,19.423645 C24.8158112,18.4129944 25.7046967,17.1588135 25.7046967,15.3201599 C25.7046967,12.4830322 23.4155121,10.1338494 19.9573822,10.1338494 C17.3394318,10.1338494 15.35466,11.6184998 14.5753632,13.2257996 C14.3318329,13.6885071 14.2100677,14.1512146 14.2100677,14.6748047 C14.2100677,15.6002197 14.8067169,16.1968689 15.7686615,16.1968689 C16.5114288,16.1968689 17.0593719,15.8559265 17.3637848,15.0766296 C17.7534332,13.9929199 18.5570831,13.4084473 19.7503815,13.4084473 C21.089798,13.4084473 22.015213,14.2364502 22.015213,15.4297485 C22.015213,16.5499878 21.540329,17.1588135 19.9695587,18.096405 C18.5327301,18.9365845 17.7899628,19.8863525 17.7899628,21.3231812 L17.7899628,21.4936523 C17.7899628,22.4921265 18.3987885,23.1983643 19.4337921,23.1983643 Z M19.4581451,28.6169128 C20.5662079,28.6169128 21.4550934,27.7767334 21.4550934,26.7052002 C21.4550934,25.633667 20.5662079,24.7934875 19.4581451,24.7934875 C18.3622589,24.7934875 17.4733734,25.633667 17.4733734,26.7052002 C17.4733734,27.7767334 18.3622589,28.6169128 19.4581451,28.6169128 Z" id="?-copy" fill="#FFFFFF" fill-rule="nonzero"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
